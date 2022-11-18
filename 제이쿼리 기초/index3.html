@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="JQUERY/jquery-3.6.1.js"></script>
+    <script>
+      console.clear();
+    
+      var a = 1;
+      var b = 2;
+      //여기서 a를 출력 했을 때 2가 나오고 b를 출력 했을 때 1이 나오게 하여라
+
+      var 임시 = a; //a가 원래 가지고 있던 것이 보관되어 있는 변수
+      a = b;//a=2로 바뀜
+      b = 임시;//b=a로 하면 바뀐 2의 값으로 나옴 a의 값을 백업해놔야 함
+
+
+      //여기까지
+    
+
+      console.log(a);
+      console.log(b);
+     
+
+    </script>
+    
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
